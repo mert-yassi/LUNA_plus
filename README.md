@@ -50,8 +50,8 @@ in your home folder. This file needs a sudo password to run.
 
 If you want to manually install LUNA+, after installing the dependencies, please download the files to your home folder. The implementation can be built and run from a Linux Terminal with the given chain of commands:
 
-`cd ~/LUNA_plus/HGSW/build && cmake .. && cd ~/LUNA_plus/HGSW/build && make && cd ~/LUNA_plus/HGSW/build/hgsw/bin/ && ./HGSW_test`
+`cd ~/LUNA_plus-main/HGSW/build && cmake .. && cd ~/LUNA_plus-main/HGSW/build && make && cd ~/LUNA_plus-main/HGSW/build/hgsw/bin/ && ./HGSW_test`
 
 By default, the build uses `params_v1.hpp`, which contains the accepted-paper parameters. To run the faster parameters, change `HGSW_PARAMS_VERSION` from `1` to `2` in `hgsw/params_selector.hpp`, then run the same build command:
 
-`cd ~/LUNA_plus/HGSW/build && cmake .. && make && cd ~/LUNA_plus/HGSW/build/hgsw/bin/ && ./HGSW_test`
+`cd ~/LUNA_plus-main/HGSW/build && cmake .. && make && cd ~/LUNA_plus-main/HGSW/build/hgsw/bin/ && ./HGSW_test`
