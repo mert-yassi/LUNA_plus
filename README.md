@@ -1,5 +1,5 @@
 # LUNA+
-### LUNA+: Succinct Post-Quantum ZK-SNARGs from Computational Privacy
+### LUNA+: More Succinct Post-Quantum ZK-SNARGs from Computational Privacy
 
 #### Prerequisites
 
