@@ -2,7 +2,7 @@
 ### LUNA+: More Succinct Post-Quantum ZK-SNARGs from Computational Privacy
 
 LUNA+ is the successor to LUNA, providing a more efficient and succinct post-quantum ZK-SNARG construction based on computational privacy. This repository contains the C++ implementation of the Half-GSW vector encryption scheme used in the paper LUNA+: More Succinct Post-Quantum ZK-SNARGs from Computational Privacy. The implementation
-is built with the C++17 standard using gcc/g++ 11.4.0 or later. It runs for (N<sub>g</sub> = 2^{10}, 2^{12}, 2^{14}), in this order, and reports the runtimes of the main components: Setup, Encrypt, Add, and Decrypt. By default, the build uses the accepted-paper LUNA+ parameter set, while a faster parameter set is also included and can be selected through the parameter selector file.
+is built with the C++17 standard using gcc/g++ 11.4.0 or later. It runs for (N<sub>g</sub> = 2<sup>10</sup>, 2<sup>12</sup>, 2<sup>14</sup>), in this order, and reports the runtimes of the main components: Setup, Encrypt, Add, and Decrypt. By default, the build uses the accepted-paper LUNA+ parameter set, while a faster parameter set is also included and can be selected through the parameter selector file.
 
 #### Prerequisites
 
