@@ -24,6 +24,8 @@ make
 
 sudo make install
 
+cd ~
+
 git clone https://github.com/mert-yassi/LUNA_plus
 
 cd ~/LUNA_plus/HGSW/build && cmake .. && cd ~/LUNA_plus/HGSW/build && make && cd ~/LUNA_plus/HGSW/build/hgsw/bin/ && ./HGSW_test
